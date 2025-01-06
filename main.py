@@ -12,6 +12,7 @@ TELEGRAM_BOT_TOKEN ="7702193644:AAGopapZ-awNmcKrEMaVjX6HuilrJbXToP0"
 # B2: Cấu hình Webhook của google app scrip và khai báo tại đây
 WEEBHOOK_URL ="https://script.google.com/macros/s/AKfycbwPxksbBxn-GWocQO71UdXOBm3RJpHTPQ26CjzTh3LWmQNhX5X9d6c4Ms2efyHnzygz-A/exec"
 
+
 # Lệnh /start
 def start(update:Update, context: CallbackContext):
     update.message.reply_text("Chào bạn! Gửi tin nhắn theo định dạng sau:\n\n<Nội dung> - <Số tiền>\n\nVD: Cà phê - 50000")
