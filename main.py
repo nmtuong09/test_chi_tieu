@@ -7,6 +7,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import requests
 
+
 # B1: Cấu hình Telegram bot trên telegram và lấy token để khai báo ở đây
 TELEGRAM_BOT_TOKEN ="7702193644:AAGopapZ-awNmcKrEMaVjX6HuilrJbXToP0"
 # B2: Cấu hình Webhook của google app scrip và khai báo tại đây
